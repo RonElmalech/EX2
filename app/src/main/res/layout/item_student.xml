@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/student_pic"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_student" />
+
+        <TextView
+            android:id="@+id/student_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingStart="16dp" />
+        <TextView
+        android:id="@+id/student_id"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+        android:layout_height="wrap_content"
+            />
+ <CheckBox
+            android:id="@+id/student_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+</LinearLayout>

@@ -1,4 +1,4 @@
-package com.example.ex2
+package com.example.assigment2
 
 import org.junit.Test
 
